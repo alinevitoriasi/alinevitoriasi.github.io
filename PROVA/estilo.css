@@ -1,0 +1,256 @@
+
+/* Body */
+body{
+    margin: 0px 100px 0px 100px;
+    font-family: 'Muli', sans-serif;
+    background-color: rgba(246, 246, 246, 1)
+}
+
+/* Header */
+header{
+    padding: 5px;
+    margin-bottom: 40px;
+}
+header> img{
+    height: 180px;
+    width: 180px;
+}
+#nav_pesquisa{
+    float: right;
+
+}
+#nav_pesquisa>nav>ul>li{
+    padding: 0px 5px 0px 5px;
+    display: inline;
+    list-style: none;
+}
+
+#pesquisa>button{
+    width: 130px ;   
+}
+#pesquisa>form{
+    float: right;
+    margin-left: 20px;
+    width:250px;
+}
+#pesquisa>form>a{
+    float: right;  
+    margin:1px;  
+}
+/*MENU*/
+.menu{
+    clear:both; /*Utilizado para limpar flutuação - nav_pesquisa*/
+    float: right;
+    margin-top: -45px;
+    
+}
+.menu ul li{
+    display: inline;
+    padding-left:1px;
+}
+.menu ul li{
+    border: 2px solid;
+    padding: 15px 60px;
+    margin:1px;
+}   
+.menu ul li a{
+    text-decoration:none;
+    color: black;
+}
+/*ASIDE LEFT*/
+#left{
+    float:left;
+}
+/* USER BOX*/
+#usuario{
+    
+    padding: 35px 10px 10px 10 px ;
+    height: 120px;
+}
+#usuario>img{
+    width: 90px;
+    height: 90px;
+    float: right;
+}
+/*BOX*/
+#box_populares a{
+    color: black;
+    text-decoration: none;
+}
+#box_populares{
+    
+    clear:both;
+    padding: 10px 0px 10px 0px;
+}
+.box{
+    border: 2px solid;
+    background-color:#CC632C;
+    padding: 10px 0px 10px 20px;
+}
+.box>p{ 
+    text-align:center;
+    padding: 5px;
+}
+/*NAV*/
+#left>.menu{
+    clear:both; /*Utilizado para limpar flutuação - nav_pesquisa*/
+    float: left;
+    margin-top: 10px;
+    margin-left: -40px;
+    
+}
+#left>.menu ul li{
+    display: block;
+    list-style: none;
+    margin-bottom: 11px;
+}
+
+/* Section */   
+section a{
+        color: black;
+   
+}
+section p{
+    font-size:15px;
+}
+.bt{
+    width:10px;
+    height:10px;
+
+}
+.box_section{
+    width: 520px;
+    margin-left:30px;
+    background-color: #CC632C;
+    padding: 15px 20px 0px 20px;
+    margin-bottom:10px;
+    border: 2px solid;  
+}
+/*Qual a novidade */
+#first{ 
+    display: grid;
+    grid-template-columns: 200px 320px;
+}
+#first>img{
+    width:130px;
+    height: 130px;
+}
+.button_top{
+    margin-left: 220px;
+}
+
+
+#data{
+    text-align: right;
+    padding-right: 20px;
+}
+/*Segundo Artigo */
+#second{ 
+    display: grid;
+    grid-template-columns: 500px 20px;
+}
+/*Terceiro Artigo */
+#third{ 
+    display: grid;
+    grid-template-columns: 200px 320px;
+}
+/*ASIDE RIGHT */
+#right{          
+    float:right;
+}
+/*SLIDE*/
+#slide {
+    height: 350px;
+    margin-bottom:22px;
+    background-color: #BAAF46;
+    border:2px solid; 
+}
+#slide> img{
+    position: absolute;
+    opacity: 0.8;
+    height: 280px;
+    width: 250px;
+    margin: 35px 10px 10px 15px
+}
+.anuncio>img{
+    width: 90px;
+    height: 70px;
+    float:left;
+}
+.anuncio{
+        height:150px;
+        background-color: #BAAF46;  
+        border:2px solid;
+        margin-bottom:30px;
+        padding:20px 20px 20px 20px;
+        text-align: right;
+}
+/*FOOTER */
+#listafooter{
+    margin-left:-40px;
+}
+footer ul li{
+    display: inline;
+    float: left;
+    font-size: 12px;
+    margin:5px;
+    padding-right: 5px;
+    border-right:1px solid;
+}
+footer p{
+    float: right;
+    font-size: 12px;
+}
+/*COMUM */
+#corpo{
+    display: grid;
+    grid-template-columns: 240px 620px 280px;
+    border-bottom: 1px solid;   
+}
+
+
+.underline{
+    text-decoration: underline;
+    font-weight: bold;
+}
+#legenda{   
+    position: absolute;
+    margin: 150px 10px 20px 10px;
+    background-color: rgba(220, 220, 220, 0.5);
+    width: 270px;
+}
+#bt_slide{
+    position: absolute;
+    margin: 300px 10px 20px 130px;
+
+}
+#bt_slide a{
+    padding: 5px;
+    font-weight: bold;
+}
+.num:hover{
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+#page_top 
+{
+    padding-left: 40%;
+    position: absolute;
+}
+
+#page_top a
+{
+    margin-left:37px;
+}
+#ft_bold{
+    font-weight: bold;
+}
+#ft_negative{
+    background-color: black;
+    color: white;
+}
+#none{
+    text-decoration:none; 
+}
