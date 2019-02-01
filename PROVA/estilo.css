@@ -26,7 +26,7 @@ header> img{
 }
 
 #pesquisa>button{
-    width: 130px ;   
+    width: 130px ;
 }
 #pesquisa>form{
     float: right;
@@ -34,15 +34,15 @@ header> img{
     width:250px;
 }
 #pesquisa>form>a{
-    float: right;  
-    margin:1px;  
+    float: right;
+    margin:1px;
 }
 /*MENU*/
 .menu{
     clear:both; /*Utilizado para limpar flutuação - nav_pesquisa*/
     float: right;
     margin-top: -45px;
-    
+
 }
 .menu ul li{
     display: inline;
@@ -52,7 +52,7 @@ header> img{
     border: 2px solid;
     padding: 15px 60px;
     margin:1px;
-}   
+}
 .menu ul li a{
     text-decoration:none;
     color: black;
@@ -63,7 +63,7 @@ header> img{
 }
 /* USER BOX*/
 #usuario{
-    
+
     padding: 35px 10px 10px 10 px ;
     height: 120px;
 }
@@ -78,7 +78,7 @@ header> img{
     text-decoration: none;
 }
 #box_populares{
-    
+
     clear:both;
     padding: 10px 0px 10px 0px;
 }
@@ -87,7 +87,7 @@ header> img{
     background-color:#CC632C;
     padding: 10px 0px 10px 20px;
 }
-.box>p{ 
+.box>p{
     text-align:center;
     padding: 5px;
 }
@@ -97,7 +97,7 @@ header> img{
     float: left;
     margin-top: 10px;
     margin-left: -40px;
-    
+
 }
 #left>.menu ul li{
     display: block;
@@ -105,10 +105,10 @@ header> img{
     margin-bottom: 11px;
 }
 
-/* Section */   
+/* Section */
 section a{
         color: black;
-   
+
 }
 section p{
     font-size:15px;
@@ -124,10 +124,10 @@ section p{
     background-color: #CC632C;
     padding: 15px 20px 0px 20px;
     margin-bottom:10px;
-    border: 2px solid;  
+    border: 2px solid;
 }
 /*Qual a novidade */
-#first{ 
+#first{
     display: grid;
     grid-template-columns: 200px 320px;
 }
@@ -145,17 +145,17 @@ section p{
     padding-right: 20px;
 }
 /*Segundo Artigo */
-#second{ 
+#second{
     display: grid;
     grid-template-columns: 500px 20px;
 }
 /*Terceiro Artigo */
-#third{ 
+#third{
     display: grid;
     grid-template-columns: 200px 320px;
 }
 /*ASIDE RIGHT */
-#right{          
+#right{
     float:right;
 }
 /*SLIDE*/
@@ -163,7 +163,7 @@ section p{
     height: 350px;
     margin-bottom:22px;
     background-color: #BAAF46;
-    border:2px solid; 
+    border:2px solid;
 }
 #slide> img{
     position: absolute;
@@ -179,7 +179,7 @@ section p{
 }
 .anuncio{
         height:150px;
-        background-color: #BAAF46;  
+        background-color: #BAAF46;
         border:2px solid;
         margin-bottom:30px;
         padding:20px 20px 20px 20px;
@@ -205,7 +205,7 @@ footer p{
 #corpo{
     display: grid;
     grid-template-columns: 240px 620px 280px;
-    border-bottom: 1px solid;   
+    border-bottom: 1px solid;
 }
 
 
@@ -213,7 +213,7 @@ footer p{
     text-decoration: underline;
     font-weight: bold;
 }
-#legenda{   
+#legenda{
     position: absolute;
     margin: 150px 10px 20px 10px;
     background-color: rgba(220, 220, 220, 0.5);
@@ -227,6 +227,8 @@ footer p{
 #bt_slide a{
     padding: 5px;
     font-weight: bold;
+    text-decoration: none;
+    color:black;
 }
 .num:hover{
     padding: 5px;
@@ -234,7 +236,7 @@ footer p{
     border: 1px solid black;
     border-radius: 100%;
 }
-#page_top 
+#page_top
 {
     padding-left: 40%;
     position: absolute;
@@ -252,5 +254,5 @@ footer p{
     color: white;
 }
 #none{
-    text-decoration:none; 
+    text-decoration:none;
 }
