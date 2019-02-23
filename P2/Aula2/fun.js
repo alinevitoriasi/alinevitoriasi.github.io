@@ -23,7 +23,7 @@ function parImpar(n)
 
 function verificaEmail(email){
 
-    var exRegular = /\w@\w+./; //Expressão Regular
+    var exRegular = /\w@\w./; //Expressão Regular
     
      if(email.search(exRegular) == -1)
     {
