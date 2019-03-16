@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+      function Digita(){
+        saida= document.getElementById("aqui");
+        entrada = document.getElementById("textodigitado");
+        saida.textContent=entrada.value;
+      }
+    </script>
+  </head>
+  <body>
+    <p>Digite : <input type="text" id="textodigitado" onkeypress="Digita()"> </p>
+    <p>Texto Digitado: <span id="aqui"></span> </p>
+  </body>
+</html>
